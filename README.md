@@ -7,21 +7,32 @@ A lightweight web application that allows users to generate professional color s
 
 Interactive Color Picker: Select any seed color using the native browser color input.
 Multiple Scheme Modes: Choose from several color theory modes:
+
 *Monochrome*
+
 *Monochrome-dark*
+
 *Monochrome-light*
+
 *Analogic*
+
 *Complement*
+
 *Analogic-complement*
+
 *Triad*
+
 *Visual Preview*: View five generated colors in large, vertical panels.
+
 *Hex Code Display*: View the clean hex codes for each generated color.
 
 
 **Technologies Used**
 
 *HTML5*: Semantic structure and form elements.
+
 *CSS3*: Flexbox/Grid layouts and custom styling (Roboto font integration).
+
 *JavaScript (ES6+)*:
 Fetch API for asynchronous data retrieval.
 FormData for efficient form handling.
@@ -40,5 +51,7 @@ Click "Get Color Scheme" to fetch and display the results.
 **Project Structure**
 
 *index.html*: The main entry point and UI structure.
+
 *index.css*: Styles for the layout, inputs, and color containers.
+
 *index.js*: Handles form submission, API requests, and UI rendering.
