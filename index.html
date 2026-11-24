@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Generator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section>
+        <form id="form">
+            <input type="color" name="color" class="color-input">
+
+            <select name="mode" class="color-style">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+
+            <button>Get Color Scheme</button>
+        </form>
+    </section>
+
+    <main id="main">
+        <div id="con-1">
+            <div class="con-text">
+                <h5 id="con-text-1">#000000</h5>
+            </div>
+        </div>
+        <div id="con-2">
+            <div class="con-text">
+                <h5 id="con-text-2">#1A1919</h5>
+            </div>
+        </div>
+        <div id="con-3">
+            <div class="con-text">
+                <h5 id="con-text-3">#343232</h5>
+            </div>
+        </div>
+        <div id="con-4">
+            <div class="con-text">
+                <h5 id="con-text-4">#4F4A4A</h5>
+            </div>
+        </div>
+        <div id="con-5">
+            <div class="con-text">
+                <h5 id="con-text-5">#6A6262</h5>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
